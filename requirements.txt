@@ -1,0 +1,5 @@
+# Core project runs on standard Python 3.10+ with zero mandatory external dependencies!
+
+# Optional developer and testing packages:
+pytest>=8.0.0
+ruff>=0.4.0
