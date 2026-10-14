@@ -586,8 +586,8 @@ class SmartInsightHandler(BaseHTTPRequestHandler):
 def run_server(port=5000):
     server = HTTPServer(("127.0.0.1", port), SmartInsightHandler)
     print("\n" + "=" * 60)
-    print(f"🚀 SmartInsight AI Web Dashboard is running!")
-    print(f"👉 Local URL: http://127.0.0.1:{port}")
+    print(f"[*] SmartInsight AI Web Dashboard is running!")
+    print(f"[*] Local URL: http://127.0.0.1:{port}")
     print("=" * 60 + "\n")
     try:
         server.serve_forever()
